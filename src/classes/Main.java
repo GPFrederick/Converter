@@ -12,7 +12,8 @@ public class Main {
 			if (choice == "Conversor de Moneda") {
 				try {
 					int index = test1.showCurrencys();
-					if (index >= 0) {
+					System.out.println("Index " + index);
+					if (index >= 0 && index != 5) {
 						String amount = test1.showInputValue();
 
 						String total;

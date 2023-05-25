@@ -60,7 +60,7 @@ public class CurrencyConverter {
 	}
 
 	public String convertPesoDolar(double amount, int index) {
-		double peso = 4753;
+		double peso = 4453.25;
 		String total;
 
 		if(index == 6) {
@@ -72,7 +72,7 @@ public class CurrencyConverter {
 	}
 
 	public String convertPesoEuro(double amount, int indexChoise) {
-		double peso = 5121;
+		double peso = 4771.99;
 		String total;
 
 		if (indexChoise == 7) {
@@ -86,7 +86,7 @@ public class CurrencyConverter {
 	}
 
 	public String convertPesoLibra(double amount, int indexChoise) {
-		double peso = 5808;
+		double peso = 5490.86;
 		String total;
 
 		if (indexChoise == 8) {
@@ -100,7 +100,7 @@ public class CurrencyConverter {
 	}
 
 	public String convertPesoYen(double amount, int indexChoise) {
-		double peso = 36.33;
+		double peso = 31.90;
 		String total;
 
 		if (indexChoise == 9) {
@@ -114,7 +114,7 @@ public class CurrencyConverter {
 	}
 
 	public String convertPesoWon(double amount, int indexChoise) {
-		double peso = 3.67;
+		double peso = 3.35;
 		String total;
 
 		if (indexChoise == 10) {
